@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: db_development
+  pool: 5
+  username: nitesh
+  password: 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: db_test
+  pool: 5
+  username: nitesh
+  password: 
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: db_production
+  pool: 5
+  username: nitesh
+  password: 
